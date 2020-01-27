@@ -1,0 +1,113 @@
+.niko1 {
+  font-family: "Press Start 2P"
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+header {
+  background-image: url("../img/cubo.jpg");
+}
+
+
+.skills {
+  /* height: 448px; */
+  background: #428bca ;
+  color: white;
+  padding: 40px 0px 40px 0px;
+}
+
+/* .skills h2 {
+  font-weight: 700;
+} */
+
+footer {
+  background: white;
+  color: blue;
+}
+
+.boton_habilidad {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 0px;
+  color: #6bcabb;
+  background: white;
+  width: 175px;
+}
+
+/* Sección Media Queries */
+
+@media only screen and (min-width: 992px) {
+  .modal1 , .modal2, .modal3 {
+    padding-left: 10%;
+    padding-bottom: 10%;
+  }
+
+  .contacto {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .modal1 , .modal2, .modal3 {
+    padding-left: 20%;
+  }
+
+
+  header {
+    padding-bottom: 14rem;
+  }
+
+  header h1 {
+    font-size: 68px;
+  }
+
+  header h3 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h1.font-weight-bold {
+    /* border: 1px black solid; */
+    font-size: 45px;
+    margin-bottom: 1rem;
+  }
+
+  h3.my-2 {
+    font-size: 20px;
+  }
+
+  .dev {
+    padding-bottom: 75px;
+  }
+
+  header {
+    background-size: cover;
+    background-position: center;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+
+
+  article {
+    margin-bottom: 10px;
+  }
+
+.kine3 {
+
+  height: 50%;
+}
