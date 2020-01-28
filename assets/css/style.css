@@ -27,8 +27,7 @@ header {
 } */
 
 footer {
-  background: white;
-  color: blue;
+  color: white;
 }
 
 .boton_habilidad {
@@ -105,4 +104,13 @@ footer {
 
   article {
     margin-bottom: 10px;
+  }
+
+  .icono-footer {
+    color: white;
+  }
+  .texto-footer {
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
